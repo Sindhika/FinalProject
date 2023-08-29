@@ -2,6 +2,8 @@ target/
 test-output/
 test-output/**
 *.log
+screenshots
+screenshots/**
 .idea
 .idea/**
 reports/
