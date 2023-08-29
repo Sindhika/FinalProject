@@ -62,7 +62,7 @@ public  class RunTestOrangeHRM {
         Thread.sleep(3000);
     }
 
-    @Test(priority = 2, enabled = false)
+    @Test(priority = 2, enabled = true)
     public void pimPage() throws Exception {
         test = extent.createTest("PIM page");
         pimPageObjects.clickPIM();
@@ -88,7 +88,7 @@ public  class RunTestOrangeHRM {
 
     }
 
-    @Test(priority = 3, enabled = false)
+    @Test(priority = 3, enabled = true)
     public void adminPage() throws Exception {
         test = extent.createTest("Admin Page");
         adminPageObjects.clickAdmin();
@@ -108,7 +108,7 @@ public  class RunTestOrangeHRM {
         sa.assertAll();
     }
 
-    @Test(priority = 4, enabled = false)
+    @Test(priority = 4, enabled = true)
     public void exit() throws Exception {
         extent.flush();
     }
