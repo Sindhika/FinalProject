@@ -6,6 +6,8 @@ test-output/**
 .idea/**
 reports/
 reports/**
+__MACOSX/
+__MACOSX**
 *.html
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
