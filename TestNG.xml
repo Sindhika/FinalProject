@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="FinalProjet">
+    <test name="ProgressionTest">
+        <classes>
+            <class name="runTest.RunTestOrangeHRM"></class>
+        </classes>
+    </test>
+</suite>
